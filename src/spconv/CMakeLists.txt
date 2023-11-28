@@ -11,8 +11,8 @@ endif()
 
 
 target_include_directories(spconv PRIVATE ${ALL_INCLUDE} )
-set_property(TARGET spconv PROPERTY CUDA_STANDARD 14)
-set_property(TARGET spconv PROPERTY CXX_STANDARD 14)
+set_property(TARGET spconv PROPERTY CUDA_STANDARD 17)
+set_property(TARGET spconv PROPERTY CXX_STANDARD 17)
 set_target_properties(spconv PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 if (SPCONV_BuildCUDA)
     target_link_libraries(spconv PRIVATE ${ALL_LIBS} cuhash)
