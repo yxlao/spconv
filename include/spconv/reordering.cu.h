@@ -15,7 +15,7 @@
 #ifndef REORDERING_CU_H_
 #define REORDERING_CU_H_
 #include <THC/THCAtomics.cuh>
-#include <THC/THCNumerics.cuh>
+// #include <THC/THCNumerics.cuh>
 #include <cuda_fp16.h>
 #include <tensorview/kernel_utils.h>
 
